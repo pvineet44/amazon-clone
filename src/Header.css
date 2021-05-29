@@ -11,14 +11,8 @@
 .header__logo {
   width: 100px;
   object-fit: contain;
-  margin: 0px 20px;
+  margin: 0 20px;
   margin-top: 18px;
-}
-
-.header__searchIcon {
-  padding: 5px;
-  height: 22px !important;
-  background-color: #cd9042;
 }
 
 .header__search {
@@ -35,17 +29,10 @@
   width: 100%;
 }
 
-.header__option {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: white;
-}
-
-.header__nav {
-  display: flex;
-  justify-content: space-evenly;
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
 }
 
 .header__optionLineOne {
@@ -66,4 +53,17 @@
 .header__basketCount {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
 }
