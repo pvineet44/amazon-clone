@@ -42,6 +42,8 @@
 .header__optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+  cursor: pointer;
+  text-decoration: inherit;
 }
 
 .header__optionBasket {
