@@ -7,9 +7,10 @@ import Login from './Login';
 import { useEffect } from 'react';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
+import Payment from './Payment';
 
 function App() {
-  const [{basket}, dispatch ] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   useEffect(() => {
     //only run once when the app component loads up
@@ -41,6 +42,10 @@ function App() {
           <Route path='/checkout'>
             <Header />
             <Checkout />
+          </Route>
+          <Route path='/payment'>
+            <Header />
+            <Payment />
           </Route>
           <Route path='/'>
             <Header />
