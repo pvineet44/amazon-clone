@@ -10,6 +10,11 @@
   margin-bottom: 10px;
 }
 
+.checkout__email {
+  margin-right: 10px;
+  padding: 10px;
+}
+
 .checkout__title {
   margin-right: 10px;
   padding: 10px;
