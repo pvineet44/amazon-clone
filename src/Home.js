@@ -18,13 +18,13 @@ function Home() {
             title='The lean startup'
             price={29.99}
             image='https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg'
-            rating={5}
+            rating={3}
           />
           <Product
           id={12345678}
-          title='The lean startup'
-          price={29.99}
-          image='https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg'
+          title='Tuesdays with Morrie'
+          price={39.99}
+          image='https://images-na.ssl-images-amazon.com/images/I/41rj-uZS4lL._SX301_BO1,204,203,200_.jpg'
           rating={5}
           />
         </div>
@@ -34,7 +34,7 @@ function Home() {
           title='Samsung LC49RG90SSUXEN 49 Inch Curved LED Gaming Monitor'
           price={199.99}
           image='https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg'
-          rating={5}
+          rating={4}
           />
           <Product
           id='23445930'
